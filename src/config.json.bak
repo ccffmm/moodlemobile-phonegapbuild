@@ -1,6 +1,6 @@
 {
-    "app_id": "www.yuekeedu.com",
-    "appname": "约课网",
+    "app_id": "com.moodle.moodlemobile",
+    "appname": "MWCX Moodle Mobile",
     "desktopappname": "MWCX Moodle Desktop",
     "versioncode": 3600,
     "versionname": "3.6.0",
@@ -52,9 +52,21 @@
     },
     "wsservice": "moodle_mobile_app",
     "wsextservice": "local_mobile",
+    "demo_sites": {
+        "student": {
+            "url": "https:\/\/school.demo.moodle.net",
+            "username": "student",
+            "password": "moodle"
+        },
+        "teacher": {
+            "url": "https:\/\/school.demo.moodle.net",
+            "username": "teacher",
+            "password": "moodle"
+        }
+    },
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "39.98.95.12",
+    "siteurl": "",
     "multisitesdisplay": "",
     "skipssoconfirmation": false,
     "forcedefaultlanguage": false,
