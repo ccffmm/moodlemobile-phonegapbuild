@@ -2,17 +2,17 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "www.yuekeedu.com"
+        id        = "com.moodle.moodlemobile"
         versionCode = "36000"
         android-versionCode="36000"
         version   = "3.6.0">
-    <name>约课网</name>
+    <name>MW Moodle</name>
 
     <description>
-        约课网络学习平台-Moodle official app
+        MW Moodle official app
     </description>
 
-    <author href="http://yuekeedu.com" email="mingweicx@126.com">
+    <author href="http://moodle.com" email="mobile@moodle.com">
         Moodle Mobile team
     </author>
 
@@ -159,7 +159,7 @@
         <param name="SENDER_ID" value="694767596569" />
     </gap:plugin>
 
-    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='约课网']" mode="merge">
+    <edit-config file="AndroidManifest.xml" target="/manifest/application/activity[@android:name='MW Moodle']" mode="merge">
         <activity android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|screenLayout|smallestScreenSize" android:debuggable="true"></activity>
     </edit-config>
 
