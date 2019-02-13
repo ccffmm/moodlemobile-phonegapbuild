@@ -54,7 +54,7 @@
     "wsextservice": "local_mobile",
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "39.98.95.12",
+    "siteurl": "http://39.98.95.12",
     "multisitesdisplay": "",
     "skipssoconfirmation": false,
     "forcedefaultlanguage": false,
